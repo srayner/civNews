@@ -5,6 +5,7 @@ namespace News\Model\Link;
 interface LinkInterface
 {
     public function getLinkId();
+    public function setLinkId($id);
     
     public function getTitle();
     public function setTitle($title);

@@ -17,6 +17,11 @@ class Link implements LinkInterface
         return $this->linkId;
     }
     
+    public function setLinkId($id){
+    	$this->linkId = $id;
+    	return $this;
+    }
+    
     public function getTitle()
     {
         return $this->title;
